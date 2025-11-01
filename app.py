@@ -14,7 +14,7 @@ from core.rambo import rambo_massless
 from core.hypotheses import run_hypothesis_tests
 
 st.set_page_config(page_title="Monte Carlo Lab", layout="wide")
-st.title("Monte Carlo Lab — versión básica")
+st.title("Monte Carlo Lab — v1")
 
 st.sidebar.header("Controles generales")
 seed = st.sidebar.number_input("Seed", min_value=0, value=12345, step=1)
